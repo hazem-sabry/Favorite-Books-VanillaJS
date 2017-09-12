@@ -45,8 +45,14 @@ body{
   font-family: 'Lato', sans-serif;
   outline: none;
   border-radius: 3px;
-  border: none;
+  border: 1px solid #ecf0f1;
   font-weight: 100;
+  transition: border .3s ease;
+}
+
+.wraper header form input:hover,
+.wraper header form input:focus{
+  border: 1px solid #1abc9c;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -129,6 +135,13 @@ body{
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   border-radius: 4px 0 0 4px;
+  transition: border .3s ease;
+}
+
+#add-book input:hover,
+#add-book input:focus{
+  border: 1px solid #1abc9c;
+  border-right: none;
 }
 
 #add-book button{
