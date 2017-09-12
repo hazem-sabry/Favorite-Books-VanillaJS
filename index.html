@@ -16,7 +16,7 @@
       <h1>My favorite books</h1>
       <h5>By Hazem Sabry</h5>
 
-      <form>
+      <form id="search-form">
         <input type="text" id="search" placeholder="Search books...">
       </form>
     </header>
@@ -45,10 +45,12 @@
       </ul>
     </div>
 
-    <div id="add-book">
-        <input type="text" placeholder="Add a book...">
+    <form id="add-book">
+        <input type="text" placeholder="Add a book..." required>
         <button>Add</button>
-    </div>
+    </form>
   </div>
+
+  <script src="./app.js"></script>
 </body>
 </html>
